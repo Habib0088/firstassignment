@@ -18,8 +18,10 @@
 }
 section{
     padding: 0 159px 0 141px;
+    background-color: #F5F8FF;
 }
 /* Button */
+
 .btn-primary{
     background-color: #4E47FF;
     padding:12px 36px;
@@ -35,6 +37,9 @@ h4{
 h5{
     font-size: 38px;
     color: #252432;
+}
+h6{
+    font-size: 16px;
 }
 /* Header Section */
 header{
@@ -112,3 +117,48 @@ header nav{
 .user-section h5{
     margin-bottom: 40px;
 }
+/* review section */
+.review-section h4{
+    text-align: center;
+    padding-top: 137px;
+    margin-bottom: 50px;
+}
+
+.review-items {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+}
+.review-item {
+    width: calc((100% - 40px) / 3);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.review-section i{
+    color: #FFB805;
+    font-size: 10px;
+    margin-right: 2px;
+    margin-bottom: 15px;
+}
+.review-section .love{
+    font-size:10px ;
+    width: 70%;
+    margin-top: 10px;
+}
+.review-section .user-photo-name{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-photo-name img{
+    border-radius: 50%;
+    
+}
+.user-photo-name .name,
+.user-photo-name .date{
+    font-size:14px;
+    margin-left: 5px;
+}
+
+
