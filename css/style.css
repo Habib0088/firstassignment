@@ -1,0 +1,24 @@
+/* Universal CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Button */
+.btn-primary{
+    background-color: #4E47FF;
+    padding:12px 36px;
+    color: #fff;
+    border: none;
+    border-radius:5px ;
+}
+/* Header Section */
+header{
+    padding: 40px 150px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
