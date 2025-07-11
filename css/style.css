@@ -27,8 +27,13 @@ section{
     border: none;
     border-radius:5px ;
 }
+/* h tags */
 h4{
     font-size: 42px;
+    color: #252432;
+}
+h5{
+    font-size: 38px;
     color: #252432;
 }
 /* Header Section */
@@ -53,7 +58,6 @@ header nav{
     color: #252432;
     width: 70%;
     margin: auto;
-    font-weight: ;
 }
 .banner .btn-primary{
     margin-top: 37px;
@@ -81,4 +85,30 @@ header nav{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+/* User section */
+.user-section{
+    padding-top: 116px;
+    text-align: center;
+}
+.user-details{
+    padding: 50px 60px ;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.user-items h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+.user-count{
+    display: flex;
+    justify-content: space-around;
+}
+.user-items p{
+    font-size: 20px;
+}
+.user-section h5{
+    margin-bottom: 40px;
 }
