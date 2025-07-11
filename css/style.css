@@ -1,6 +1,16 @@
 /* Google Font  */
 
+.raleway-awesome{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-awesome{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 
+  font-style: normal;
+}
 .main-font{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -34,10 +44,14 @@ section{
     background-color: rgb(84, 250, 200);
     color: black;
     cursor: pointer;
+    transform: scale(1.005);
+    font-size: 15px;
 }
 /* h tags */
 h1{
-    font-size: 97px;        
+    font-size: 97px;    
+    font-family:"Raleway", sans-serif; 
+    font-weight: bolder;   
 }
 h4{
     font-size: 42px;
@@ -72,6 +86,7 @@ header nav{
     color: #252432;
     width: 70%;
     margin: auto;
+    font-family: "Raleway", sans-serif;
 }
 .banner .btn-primary{
     margin-top: 37px;
@@ -127,21 +142,24 @@ header nav{
     margin-bottom: 40px;
 }
 /* review section */
+.review-section{
+    height: 450px;
+}
 .review-section h4{
     text-align: center;
     padding-top: 137px;
     margin-bottom: 50px;
+
 }
 
 .review-items {
     display: flex;
-    background-color: #fff;
+    gap: 30px;
 }
 .review-item {
-    width: calc((100% - 40px) / 3);
+   width: 300px;
     background-color: #fff;
     padding: 20px;
-    
     border-radius: 10px;
 }
 .review-section i{
@@ -160,6 +178,7 @@ header nav{
     align-items: center;
     margin-top: 20px;
 }
+/* User section */
 .user-photo-name img{
     border-radius: 50%;
     
@@ -245,7 +264,7 @@ header nav{
     
 }
 .focus-section .btn-primary{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .focus-section img{
     height: 364px;
