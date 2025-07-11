@@ -30,6 +30,9 @@ section{
     border-radius:5px ;
 }
 /* h tags */
+h1{
+    font-size: 97px;        
+}
 h4{
     font-size: 42px;
     color: #252432;
@@ -126,13 +129,13 @@ header nav{
 
 .review-items {
     display: flex;
-    gap: 20px;
     background-color: #fff;
 }
 .review-item {
     width: calc((100% - 40px) / 3);
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding: 20px;
+    
     border-radius: 10px;
 }
 .review-section i{
@@ -161,4 +164,52 @@ header nav{
     margin-left: 5px;
 }
 
+/* News letter section */
+.form-section{
+    padding-top: 92px;
+}
+.form-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-section label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.form-section input[type="email"],
+.form-section input[type="text"],
+.form-section textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.form-section .btn-primary{
+    width: 100%;
+    margin-top: 10px;
+}
+/* Footer section */
+.footer-section{
+    background-color: #fff;
+    text-align: center;
+}
+.footer-all-content{
+    padding:104px 259px;
+}
+.footer-section .logo p{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.footer-section ul li{
+    list-style-type: none;
+}
+.footer-section ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 
+}
