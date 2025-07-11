@@ -13,6 +13,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+.text-color{
+    color: #252432;
+}
+section{
+    padding: 0 159px 0 141px;
+}
 /* Button */
 .btn-primary{
     background-color: #4E47FF;
@@ -20,6 +26,10 @@
     color: #fff;
     border: none;
     border-radius:5px ;
+}
+h4{
+    font-size: 42px;
+    color: #252432;
 }
 /* Header Section */
 header{
@@ -47,4 +57,28 @@ header nav{
 }
 .banner .btn-primary{
     margin-top: 37px;
+}
+/* Action section */
+.action-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 116px;
+}
+.action-details{
+    width: 517px;
+    height: 204px;
+}
+.action-description{
+    font-size: 24px;
+    margin-bottom: 23px;
+    
+}
+.action-section h4{
+    margin-bottom: 23px
+}
+.action-section img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
